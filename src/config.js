@@ -3,18 +3,17 @@ module.exports = {
 	botVersion: "BETA-v1.2.2",
 
 	// BOT INFO //
-	prefix: "t?", // Default prefix
+	prefix: "?", // Default prefix
 	status: "dnd",
 	eventListeners: 100,
-	botName: "testify",
-	dev: "Kkermit",
-	devBy: "| Developed by kkermit",
-	developers: "526853643962679323",
+	dev: ["purritoz"],
+	devBy: "| Developed by Huts and Cat",
+	developers: ["1286030761002012673"],
 	noPerms: `You **do not** have the required permissions to use this command!`,
 	ownerOnlyCommand: `This command is **only** available for the owner of the bot!`,
 	filterMessage: "Your message includes profanity which is **not** allowed!",
-	botInvite: "https://discord.com/oauth2/authorize?client_id=1211784897627168778&permissions=8&scope=bot%20applications.commands",
-	botServerInvite: "https://discord.gg/xcMVwAVjSD",
+	botInvite: "https://discord.com/oauth2/authorize?client_id=1251510890319057047",
+	botServerInvite: "https://discord.gg/zFVTE5qkbp",
 
 	// EMBED COLORS //
 	embedColor: "Blurple",
@@ -35,16 +34,16 @@ module.exports = {
 	embedAi: "DarkGrey",
 
 	// EMOJIS //
-	automodEmoji: "<:auto:1235660206856474704>",
-	modEmojiHard: "<a:mod:1235642403986083840>",
-	modEmojiLight: "<a:wompus:1235671799241510973>",
-	pepeCoffeeEmoji: "<:pepe:1238878395303989309>",
+	automodEmoji: "<:AutoModBadge:1254897035610558556>",
+	modEmojiHard: "<:olddiscordmod:1252267114174222498>",
+	modEmojiLight: "<:discordmod:1252267092095275042>",
+	pepeCoffeeEmoji: "<:pepeCoffee:1254897210928267347>",
 	arrowEmoji: "⤵",
 	errorEmoji: "❌",
 	auditLogEmoji: "📋",
-	verifyEmoji: "<a:ver:1244732033339494450>",
-	countSuccessEmoji: "<a:tick:1235674049032486945>",
-	confettiEmoji: "<a:confetti:1289370096959225857>",
+	verifyEmoji: "<a:VerifiedTeal:1254897483004383322>",
+	countSuccessEmoji: "<:ffxcheck:1254447196536049674>",
+	confettiEmoji: "🎉",
 
 	// MUSIC EMOJIS //
 	musicEmojiPlay: "▶️",
@@ -55,21 +54,24 @@ module.exports = {
 	musicEmojiError: "❌",
 
 	// CHANNEL IDS //
-	botLeaveChannel: "1139731092329480332", // Logging channel for bot leaving servers
-	botJoinChannel: "1240480049681928203", // Logging channel for bot joining servers
-	commandErrorChannel: "1240912641719930970", // Logging channel for command errors
-	evalLogsChannel: "1273733451677306880",
+	botLeaveChannel: "1255220259653419008", // Logging channel for bot leaving servers
+	botJoinChannel: "1254897835304943717", // Logging channel for bot joining servers
+	commandErrorChannel: "1273336191210754110", // Logging channel for command errors
+	evalLogsChannel: "1273764268248010863",
 
 	// Ticket Configuration //
 	ticketName: "ticket-",
 	ticketDescription: "🗳️ Ticket has been open by",
 	ticketCreate: "✅ Your ticket has been created",
-	ticketAlreadyExist: "Sorry but you already have a ticket open. If you want to open a new ticket, please close the current one.",
+	ticketAlreadyExist:
+		"Sorry but you already have a ticket open. If you want to open a new ticket, please close the current one.",
 	ticketNoPermissions: "Sorry, but you **do not** have permission to do this.",
 	ticketError: "Something went wrong, try again later.",
 	ticketMessageTitle: "Welcome, thanks for opening a ticket. Please describe your problem in detail.",
-	ticketMessageDescription: "A member of our moderation team will soon take care of your request.\nThank you for waiting patiently.",
-	ticketMissingPerms: "Sorry, it looks like I am missing the required permissions to do this. Try giving me higher permissions.",
+	ticketMessageDescription:
+		"A member of our moderation team will soon take care of your request.\nThank you for waiting patiently.",
+	ticketMissingPerms:
+		"Sorry, it looks like I am missing the required permissions to do this. Try giving me higher permissions.",
 	ticketClose: "Close",
 	ticketCloseEmoji: "📪",
 	ticketLock: "Lock",
