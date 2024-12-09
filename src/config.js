@@ -16,7 +16,7 @@ module.exports = {
 	botServerInvite: "https://discord.gg/zFVTE5qkbp",
 
 	// EMBED COLORS //
-	embedColor: "Blurple",
+	embedColor: "#302c34",
 	embedAutomod: "Blue",
 	embedCommunity: "Green",
 	embedModLight: "Red",
@@ -31,7 +31,7 @@ module.exports = {
 	embedLevels: "Fuchsia",
 	embedEconomy: "DarkOrange",
 	embedVerify: "DarkGreen",
-	embedAi: "DarkGrey",
+	embedAi: "#302c34",
 
 	// EMOJIS //
 	automodEmoji: "<:AutoModBadge:1254897035610558556>",
