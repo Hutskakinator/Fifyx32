@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-const { Client, GatewayIntentBits, Collection, Partials } = require(`discord.js`);
-=======
-
-// ████████╗███████╗███████╗████████╗██╗███████╗██╗   ██╗
-// ╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝██║██╔════╝╚██╗ ██╔╝
-//    ██║   █████╗  ███████╗   ██║   ██║█████╗   ╚████╔╝ 
-//    ██║   ██╔══╝  ╚════██║   ██║   ██║██╔══╝    ╚██╔╝  
-//    ██║   ███████╗███████║   ██║   ██║██║        ██║   
-//    ╚═╝   ╚══════╝╚══════╝   ╚═╝   ╚═╝╚═╝        ╚═╝   
-
-// Developed by: Kkermit. All rights reserved. (2024)
-// MIT License
-
 const { Client, Collection } = require(`discord.js`);
->>>>>>> upstream/main
 const fs = require('fs');
 const config = require('./config')
 
