@@ -5,10 +5,18 @@ module.exports = {
 	// BOT INFO //
 	prefix: "?", // Default prefix
 	status: "dnd",
+<<<<<<< HEAD
 	eventListeners: 100,
 	dev: ["purritoz"],
 	devBy: "| Developed by Huts and Cat",
 	developers: ["1286030761002012673"],
+=======
+	eventListeners: 50,
+	botName: "testify",
+	dev: "Kkermit",
+	devBy: "| Developed by kkermit",
+	developers: "526853643962679323",
+>>>>>>> upstream/main
 	noPerms: `You **do not** have the required permissions to use this command!`,
 	ownerOnlyCommand: `This command is **only** available for the owner of the bot!`,
 	filterMessage: "Your message includes profanity which is **not** allowed!",
@@ -100,4 +108,9 @@ module.exports = {
 	ticketTranscriptTime: "Time:",
 	ticketMemberAdd: "has been added to the ticket.",
 	ticketMemberRemove: "has been removed from the ticket.",
+
+	// AI Chat Models //
+	aiChatChannelModel: "mistral-large-latest",
+	aiChatModel: "gpt-4o",
+	aiImageGenModel: "flux-pro",
 };
