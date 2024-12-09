@@ -1,6 +1,8 @@
 const { Client, Collection } = require(`discord.js`);
 const fs = require('fs');
 const config = require('./config')
+const { EventEmitter } = require('events');
+EventEmitter.defaultMaxListeners = 100;  // Global setting for all event emitters
 
 // Client Loader //
 

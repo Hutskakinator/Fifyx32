@@ -10,7 +10,7 @@ lerna-debug.log*
 
 Ai_Chat-History
 src/logs/evalLogs.txt
-
+src/triggers/ensts.js
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
